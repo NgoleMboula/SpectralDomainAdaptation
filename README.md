@@ -48,12 +48,6 @@ python main_seot_msda.py --benchmark MSD --algorithm SeOT --reg_e 1e-4 --reg_e_b
 # On MGR
 python main_seot_msda.py --benchmark MGR --algorithm SeOT --reg_e 1e-4 --reg_e_bar 1e-2 --n_component 10 --epochs 100 --lr 0.001 --batch-size 128
 ```
-**For CS-RT benchmark:**
-```bash
-python main_seot_reflecto.py --algorithm SeOT
-
-```
-
 ## Citation
 
 If you use this code or find our work useful for you research, please consider citing our paper:
